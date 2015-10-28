@@ -1,0 +1,22 @@
+{
+  "name": "echarts-server",
+  "version": "1.0.0",
+  "description": "create echarts image on server",
+  "main": "./bin/echarts-server.js",
+  "bin": "./bin/echarts-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "channing <cn_channing@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "echarts": "^2.2.7-amd-beta2",
+    "minimist": "^1.2.0",
+    "phantomhs": "~1.9.18"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
